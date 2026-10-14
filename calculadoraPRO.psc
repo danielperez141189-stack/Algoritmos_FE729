@@ -5,7 +5,7 @@ Algoritmo calculadoraPRO
 	
 	Repetir
 		
-		Escribir "***Caluladora***"
+		Escribir "********Caluladora**********"
 		Escribir "1. Suma"
 		Escribir "2. Resta"
 		Escribir "3. Multiplicacion"
@@ -16,12 +16,12 @@ Algoritmo calculadoraPRO
 			1:	
 				Limpiar Pantalla
 				Escribir "Usted eligio la opcion sumar"
-				Escribir "Ingrese el primer valor"
-				Leer ingreso1
-				Escribir "Ingrese el segundo valor"
-				Leer ingreso2
+				Escribir "ingrese dos numeros para sumar"
+				leer ingreso1, ingreso2
 				resultado=ingreso1+ingreso2
 				Escribir "El resultado de la suma es " , resultado
+				
+				
 				
 			2: Escribir "Usted eligio la opcion de resta"
 				Escribir "Ingrese el primer valor"
