@@ -1,13 +1,25 @@
-SubProceso MostrarMenu(x)
+SubProceso MostrarResultado(x)
 	
-	Escribir "Este es el valor ingresado ", x
+	Escribir "El Resultado es:   ", x
 	
 FinSubProceso
 
+Funcion resultadoSuma <- suma(a,b)
+	Definir resultadoSuma Como Entero
+	resultadoSuma<- a+b 
+	
+FinFuncion
+
 Algoritmo ejemploFunciones
 	
-	Definir x Como Entero
-Escribir  "Ingrese un valor para X "	
-Leer x
-MostrarMenu(x)
+	Definir a,b,c como entero
+	Escribir "ingrese un digito"
+	leer a
+	Escribir "ingrese un digito"
+	leer b
+	
+	c <- suma(a,b)
+	MostrarResultado(c)
+	
+	
 FinAlgoritmo
